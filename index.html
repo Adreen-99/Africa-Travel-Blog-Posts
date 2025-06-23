@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>African Travel Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="src/index.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>African Travel Adventures</h1>
+    <h2>This Summer Checkout  cool Adventures </h2>
+    
+  </header>
+
+  <main class="container">
+
+    <!-- Post Detail First -->
+    <section class="post-detail-container">
+      <div id="post-detail">
+        <p>Select a post to view details</p>
+      </div>
+    </section>
+
+    <!-- Recent Posts Below -->
+    <section class="post-list-container">
+      <h2>Recent Posts</h2>
+      <div id="post-list" class="post-list"></div>
+    </section>
+
+    <!-- Add New Post -->
+    <section class="form-container">
+      <h2>Add New Post</h2>
+      <form id="new-post-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+
+        <label for="content">Content:</label>
+        <textarea id="content" required></textarea>
+
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" required>
+
+        <button type="submit">Create Post</button>
+      </form>
+    </section>
+
+    <!-- Edit Form (hidden by default) -->
+    <form id="edit-post-form" class="hidden">
+      <h4>Update Post Details</h4>
+
+      <label for="edit-title">Title:</label>
+      <input type="text" id="edit-title" required>
+
+      <label for="edit-content">Content:</label>
+      <textarea id="edit-content" rows="5" required></textarea>
+
+      <label for="edit-image">Image URL:</label>
+      <input type="url" id="edit-image" required>
+
+      <button type="submit">Update Post</button>
+      <button type="button" id="cancel-edit">Cancel</button>
+    </form>
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+    {
+  "posts": [
+    {
+      "id": 1,
+      "title": "Sunset Magic in Lamu Island",
+      "content": "Lamu is a hidden gem off Kenya’s coast. Narrow alleys, dhows at sunset, and the sound of donkeys instead of cars. It feels like stepping back in time. Pro tip: Try the coconut fish curry!",
+      "author": "Traveler Jane",
+      "image": "images/sunset-6911736_640.jpg"
+    },
+    {
+      "id": 2,
+      "title": "My Safari Adventure in Maasai Mara",
+      "content": "Seeing lions, elephants, and wildebeests up close was surreal. The early morning game drives were chilly but worth every second. Stay in a tented camp for the full experience!",
+      "author": "Traveler Peterson",
+      "image": "images/savannah-8079856_640.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Hiking Mount Longonot in a Day",
+      "content": "A day hike up Mount Longonot offers stunning views of the Rift Valley. The crater loop is challenging, but the breeze at the top is pure bliss. Bring lots of water and sunscreen!",
+      "author": "Traveler Mike",
+      "image": "images/valley-90388_640.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Rowing on Lake Bunyonyi, Uganda",
+      "content": "They call it the 'Switzerland of Africa' for a reason. Peaceful waters, terraced hills, and floating in a dugout canoe—it’s a vibe. The airbnb cottages on the islands are super cozy too.",
+      "author": "Traveler Sarah",
+      "image": "images/lake-balaton-1608516_640.jpg"
+    },
+    {
+      "id": 5,
+      "title": "A Day in Stone Town, Zanzibar",
+      "content": "The spices, the history, the maze-like alleys—Stone Town is a sensory overload in the best way. Visit the old fort, eat biryani at Forodhani Gardens, and watch the kids dive into the ocean at sunset.",
+      "author": "Traveler Musah",
+      "image": "images/zanzibar-2042790_640.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Discovering Naivasha by Boat",
+      "content": "Lake Naivasha is home to hippos, fish eagles, and incredible sunsets. Take a boat tour and you'll spot animals drinking from the shore. A must-do for nature lovers!",
+      "author": "Traveler Jeese",
+      "image": "images/india-1309206_640.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Weekend Getaway to Nanyuki",
+      "content": "With Mt. Kenya in the backdrop, Nanyuki is perfect for a chill weekend. Head to Ol Pejeta for rhino spotting or sip coffee at a scenic lodge.",
+      "author": "Traveler Mark",
+      "image":"images/nairobi-6335280_640.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Backpacking Through Rwanda",
+      "content": "Kigali is clean and modern, but the real beauty is in the hills. Don’t miss the Genocide Memorial for a powerful experience. Then take a bus to Musanze for volcano views!",
+      "author": "Traveler Beverlyn",
+      "image": "images/kigali-5256022_640.jpg"
+    }
+  ]
+}
