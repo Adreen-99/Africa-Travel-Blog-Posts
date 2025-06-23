@@ -4,6 +4,11 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-image: url(../images/background-1415494_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
   background-color: #f9f9f9;
   color: #333;
 }
@@ -34,6 +39,61 @@ h1, h2, h3, h4 {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+#post-detail {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 2px solid #eee;
+  background: #fafafa;
+}
+
+.detail-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
 
 #post-list div {
   cursor: pointer;
