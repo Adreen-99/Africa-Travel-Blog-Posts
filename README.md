@@ -1,6 +1,7 @@
 TRAVEL BLOG POST
 ##DETAILS:
-Code Challenge Blog This is a simple single-page blog application built with HTML, CSS (Tailwind CSS), and JavaScript, demonstrating basic CRUD (Create, Read, Update, Delete) operations on blog posts.
+Code Challenge Blog: This is a simple single-page blog application that the user can see Africa's scenery.
+Built with HTML, CSS (Tailwind CSS), and JavaScript, demonstrating basic CRUD (Create, Read, Update, Delete) operations on blog posts.
 It uses JSON-Server as a mock backend API for data persistence.
  
 ##Features View Blog Posts: 
@@ -30,9 +31,8 @@ npm install -g json-server
 
 Installation and Setup: Follow these steps to get the project up and running on your local machine:
 
-Clone the Repository (or create files manually): If this project is part of a Git repository, clone it:
+Clone the Repository (or create files manually)
 
-git <git@github.com:Spiffy047/week3.git> cd
 
 Otherwise, please make sure you have the index.html, index.js, db.json, and style.css (even if empty) files in the same directory.
 
@@ -78,13 +78,24 @@ Form Validation: Enhance client-side form validation for a better user experienc
 
 User Authentication: Implement a simple authentication system if multiple users are intended.
 
-Backend Integration: Replace json-server with a real backend (e.g., Node.js with Express, Python with Flask/Django, etc.) and a database (e.g., MongoDB, PostgreSQL).
+Backend Integration: Replace json-server with a real backend.
 
 Better Error Handling: More sophisticated UI feedback for API errors.
 
 Loading States: Display loading indicators during API calls.
 
+##License
+MIT License
+
+Copyright (c) 2025 Adreen Nyawira G.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal In the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OTHER DEALINGS IN THE SOFTWARE.
+
 This project was developed by Adreen Nyawira.G
 
 Feel free to contribute further, and you can reach me at email:githinjiadreen27@gmail.com
-##License
+
