@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Fetch all posts and render them as cards
   function fetchPosts() {
-    fetch("http://localhost:3000/posts")
+    fetch("https://json-server-ggjx.onrender.com/posts")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch");
         return res.json();
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Show full post in detail view
   function viewPost(id) {
-    fetch(`http://localhost:3000/posts/${id}`)
+    fetch(`https://json-server-ggjx.onrender.com/posts/${id}`)
       .then((res) => res.json())
       .then((post) => {
         postDetail.innerHTML = `
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newPost = { title, content, image, author };
 
-    fetch("http://localhost:3000/posts", {
+    fetch("https://json-server-ggjx.onrender.com/posts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newPost),
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         image: document.getElementById("edit-image").value.trim(),
       };
 
-      fetch(`http://localhost:3000/posts/${post.id}`, {
+      fetch(`https://json-server-ggjx.onrender.com/posts/${post.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedPost),
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function deletePost(id) {
     if (!confirm("Are you sure you want to delete this post?")) return;
 
-    fetch(`http://localhost:3000/posts/${id}`, {
+    fetch(`https://json-server-ggjx.onrender.com/posts/${id}`, {
       method: "DELETE",
     })
       .then(() => {
